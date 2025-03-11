@@ -8,7 +8,8 @@
  * ATENCIÓN: SOLO puedes cambiar el valor de la variable 'veces' para conseguirlo
  */
 
-let veces = 5;
+let veces = 15;
+console.log("5 = 5, al entrar en el bucle, directamente sale porque se cumple la variable.");
 
 // PROHIBIDO modificar el código a partir de aquí
 

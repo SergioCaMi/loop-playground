@@ -10,7 +10,7 @@
 let veces = 5; // NO ME CAMBIES
 let i = 0; /// NO ME CAMBIES
 
-while (i<=veces) {
+while (i<veces) {
     console.log("Ejecuto!");
     i++;
 }

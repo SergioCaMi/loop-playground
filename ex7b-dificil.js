@@ -3,16 +3,27 @@
  */
 
 // Mostrar la tabla de multiplicar del 3
-console.log("Tabla de multiplicar del 3:");
-for (let i = 1; i <= 10; i++) {
-    console.log("3 * " + i + " = " + 3 * i);
+// console.log("Tabla de multiplicar del 3:");
+// for (let i = 1; i <= 10; i++) {
+//     console.log("3 * " + i + " = " + 3 * i);
+// }
+
+// // Mostrar la tabla de multiplicar del 4
+// console.log("Tabla de multiplicar del 4:");
+// for (let i = 1; i <= 10; i++) {
+//     console.log("4 * " + i + " = " + 4 * i);
+// }
+
+// Tablas
+
+for (let tablaDel=1; tablaDel<=10; tablaDel++){
+    console.log("Tabla de multiplicar del "+tablaDel);
+    for (let i = 1; i <= 10; i++) {
+        console.log( tablaDel + " * " + i + " = " + tablaDel * i);
+    }
 }
 
-// Mostrar la tabla de multiplicar del 4
-console.log("Tabla de multiplicar del 4:");
-for (let i = 1; i <= 10; i++) {
-    console.log("4 * " + i + " = " + 4 * i);
-}
+
 
 /**
  * ¿Te has fijado que solo un valor varia de estas tablas?
@@ -25,6 +36,5 @@ for (let i = 1; i <= 10; i++) {
  * Ejemplo tablaDel = 7 -> https://oscarm.tinytake.com/media/1739cf7?filename=1741680489599_TinyTake11-03-2025-09-07-44_638772772879657109.png&sub_type=thumbnail_preview&type=attachment&width=662&height=373
  */
 
-let tablaDel = 1;
 // for...
 

@@ -10,13 +10,14 @@
  */
 
 let numeroFinal = 5;
+console.log("Se ejecuta 10 veces (-5 hasta 4)");
 
 for (var i = -5; i < numeroFinal; i++) {
   console.log("Voy a ejecutar el condicional para el número: " + i);
-
-  console.log("Soy un número positivo!");
-  console.log("Soy un núemro negativo!");
+  if (i>0){console.log("Soy un número positivo!");}
+  if (i<0){console.log("Soy un núemro negativo!");}
 }
+
 
 /**
  * Resultado esperado: https://oscarm.tinytake.com/msc/ODc4MzYyNF8yMjIwMzg1OA

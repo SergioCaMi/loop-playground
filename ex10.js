@@ -24,7 +24,30 @@
  * "A las 23, el sim se va a dormir"
  */
 
+
+tareasSim = [24];
+for(let x=0; x<8 ; x++){
+    tareasSim[x] = "el sim duerme";
+}
+tareasSim[8]= "A las 8, el sim se despierta";
+tareasSim[9] = "A las 9, el sim desayuna";
+for(let x=10; x<= 16; x++){
+    tareasSim[x] = "el sim estudia Front End";
+}
+tareasSim[17]="siesta";
+for(let x=18; x< 22; x++){
+    tareasSim[x] = "el sim tiene tiempo libre";
+}
+tareasSim[22]="el sim cena";
+tareasSim[23]="el sim se va a dormir";
+tareasSim[24]="el sim duerme";
+console.log(tareasSim[22]);
+
+
 let hora_actual = 8;
 let hora_dormir = 24;
-
+while (hora_actual<hora_dormir){
+    console.log(hora_actual + " horas: " + tareasSim[hora_actual])
+    hora_actual++;
+}
 // Resultado esperado aproximado: https://oscarm.tinytake.com/msc/ODc4NTEzNl8yMjIwNTc2Nw

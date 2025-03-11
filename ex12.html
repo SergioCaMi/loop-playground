@@ -25,7 +25,9 @@
 
         // Modificar a partir de aquí
 
-
+        while(palabra!=palabraSecreta){
+            palabra = (prompt("Introduce la palabra secreta", "no es cervatillo")).toLocaleLowerCase();
+        }
         // NO TOCAR a partir de aquí
 
         document.querySelector("#mensaje").textContent = "Enhorabuena! Has adivinado la palabra secreta. Efectivamente la palabra era: " + palabraSecreta;

@@ -19,8 +19,26 @@ for (let i=0;i<palabraDelDia.length;i++) {
 
     let siguienteLetraCorrecta = palabraDelDia[i];
     let siguienteLetraIntroducida = palabraIntroducida[i];
-
+    let aparece = false;
     // Tu código a partir de aquí, dentro del bucle
+    if(palabraDelDia[i] == palabraIntroducida[i]){
+        console.log(`la letra ${palabraIntroducida[i]} es correcta`)
+    } else {
+        for (let x=0;x<palabraDelDia.length;x++){
+            if (palabraIntroducida[i]==palabraDelDia[x]){
+                console.log(`la letra ${palabraIntroducida[i]} es correcta, pero se encuentra en otra posición`)
+                aparece = true;
+                break;
+            }
+        }
+        if (!aparece){
+            console.log(`la letra ${palabraIntroducida[i]} NO es correcta`)
+        }
+        
+    }
+
+
+    
 }
 
 // Resultado esperado: https://oscarm.tinytake.com/msc/ODc4MzY1N18yMjIwMzg5Mg
